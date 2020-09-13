@@ -45,6 +45,7 @@ https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/
 | remote_write  | 1701  |
 | on  | 1373  |
 | remote_apply  | 1349  |
+
 [pgbench -c4 -j2 -N bench2 on Amazon EC2 VMs (m3.large, Ubuntu, all in same subnet, 1GB shared_buffers)](https://www.enterprisedb.com/blog/cheat-sheet-configuring-streaming-postgres-synchronous-replication)
 
 ### Грязные трюки (не использовать на продакшне)
