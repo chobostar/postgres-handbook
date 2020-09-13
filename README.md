@@ -33,7 +33,7 @@ https://github.com/jackc/pgx/blob/v3.6.0/conn.go#L607-L618
 
 2-ой не может прочитать каталог, если 1-ый держит эксклюзивный лок либо стоит в очереди на взятии лока 
 
-### Влияние uuid vs bigint в качестве primary key
+### Влияние uuid vs bigint в качестве primary key на performance
 uuid занимает больше места плюс засчет рандомности трогает больше листьев b-tree, что приводит к большим объемам WAL:
 https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/ 
 
