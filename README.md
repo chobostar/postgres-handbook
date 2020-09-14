@@ -23,6 +23,25 @@ Handbook по эксплуатации PostgreSQL в production-e. Основа�
     - отдельный json/поля для часто отображаемой информации
     - отдельный json/таблица для редко используемой и не отображаемой информации
 
+### Capacity planning
+Пустая строка занимает 24 байта
+```
+postgres=# select pg_column_size(row());
+ pg_column_size 
+----------------
+             24
+(1 row)
+```
+Считать размеры строк можно так:
+```
+postgres=# select pg_column_size(row(0::bigint, 't'::boolean, 1::integer));
+ pg_column_size 
+----------------
+             40
+(1 row)
+```
+Тут про [type alignment](https://www.2ndquadrant.com/en/blog/on-rocks-and-sand/)
+
 ### Сколько делать размер пула коннектов
 - [Закон Литтла](https://en.wikipedia.org/wiki/Little%27s_law)
 - [about pool sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)
