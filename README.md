@@ -48,7 +48,7 @@ postgres=# select pg_column_size(row(0::bigint, 't'::boolean, 1::integer));
 
 `connections = ((core_count * 2) + effective_spindle_count)`
 
-Если все данные кэше, то `effective_spindle_count = 0`. 
+Если все данные в кэше, то `effective_spindle_count = 0`.
 
 Чтобы тяжелые запросы не забивали весь пул, можно разделять пулы коннектов - для быстрых синхронных задач и медленных асинхронных.
 
