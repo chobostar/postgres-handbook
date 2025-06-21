@@ -233,7 +233,7 @@ full_page_writes = off
 - Авторитетный и пополняемый контент:
   - https://www.cybertec-postgresql.com/en/blog/
   - https://www.depesz.com/
-  - https://www.cybertec-postgresql.com/en/blog/
+  - https://www.crunchydata.com/blog
 
 ### Материалы
 - [Как устроить хайлоад на ровном месте](https://www.highload.ru/moscow/2018/abstracts/41819)
