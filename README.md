@@ -191,6 +191,14 @@ latency до локального SSD 150-300μs + ping + planning time + execut
 
 #### LZ4 компрессия
 LZ4 компрессия для TOAST данных обеспечивает [лучший баланс между скоростью компрессии/декомпрессии и размером](https://www.tigerdata.com/blog/optimizing-postgresql-performance-compression-pglz-vs-lz4).
+Настройка:
+```
+default_toast_compression = 'lz4'
+```
+или
+```sql
+CREATE TABLE lz4_example(id int, lz4_column text COMPRESSION lz4)
+```
 
 ### Грязные трюки (не использовать на продакшне)
 #### Запуск postgresql, если больше нет свободного места
