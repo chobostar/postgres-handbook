@@ -240,3 +240,11 @@ full_page_writes = off
 - [Борьба с нагрузкой в PostgreSQL, помогает ли репликация в этом?](https://www.highload.ru/spb/2019/abstracts/4890)
 - [Postgres Highload Checklist](https://www.highload.ru/spb/2019/abstracts/4433)
 - [Understanding JSONB Perforamance](http://www.sai.msu.su/~megera/postgres/talks/jsonb-pgconfnyc-2021.pdf)
+
+### Мои статьи на тему PG
+- 2022-02 - [Вредные советы для postgres](https://medium.com/@Kirill_P/%D1%8F-%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%D1%81%D1%8C-%D1%81%D0%BA%D0%BE%D1%80%D0%BE-%D1%83%D0%B2%D0%BE%D0%BB%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D0%BA%D0%B0%D0%BA-%D0%BC%D0%BD%D0%B5-%D0%BF%D0%BE%D0%B4%D0%B3%D0%B0%D0%B4%D0%B8%D1%82%D1%8C-%D1%81%D0%B2%D0%BE%D0%B8%D0%BC-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B3%D0%B0%D0%BC-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-854b94223b0)
+- 2022-08 - [Про сеть и postgres](https://medium.com/@Kirill_P/network-issues-of-some-postgres-clients-48fcaeb2ce1d)
+- 2022-09 - [OOM и postgres](https://medium.com/@Kirill_P/oom-guard-for-containerized-postgres-79fec16b9ef0)
+- 2023-05 - [Про грабли Read Replicas](https://medium.com/@Kirill_P/postgresql-read-replicas-pitfalls-a361150d2564)
+- 2025-06 - [Про postgres-operator-ы](https://medium.com/@Kirill_P/%D0%BC%D0%BE%D0%B9-wish-list-%D0%BA-k8s-postgres-operator-%D0%B0%D0%BC-7a32bbcfcf49)
+
